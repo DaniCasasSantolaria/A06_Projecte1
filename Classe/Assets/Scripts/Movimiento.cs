@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Movimiento : MonoBehaviour
 {
-    public float movementSpeed = 3.0f;
+    public float movementSpeed = 3.5f;
     public float jumpForce = 100.0f;
     private Rigidbody2D rB2D;
     private float Horizontal;
@@ -20,7 +20,7 @@ public class Movimiento : MonoBehaviour
     void Update(){
         //Horizontal = Input.GetAxis("Horizontal");
         //Vertical = Input.GetAxis("Vertical");
-        ////Debug.Log($"El valor horitzontal es {horizontalMovement}"); //Per a la consola
+        //Debug.Log($"El valor horitzontal es {Horizontal}"); //Per a la consola
         //rB2D.velocity = new Vector2(Horizontal, rB2D.velocity.y);
 
         //if (Input.GetKeyDown("Horizontal"))
@@ -37,8 +37,8 @@ public class Movimiento : MonoBehaviour
     void PlayerMovement()
     {
         Horizontal = Input.GetAxis("Horizontal");
-        // Vertical = Input.GetAxis("Vertical");   FALTA ACABAR SALTO
-        rB2D.velocity = new Vector2(Horizontal * movementSpeed, rB2D.velocity.y);
+        Vertical = Input.GetAxis("Vertical");   //FALTA ACABAR SALTO
+        rB2D.velocity = new Vector2(Horizontal * movementSpeed, Vertical * jumpForce);
         PlayerOrientation(Horizontal);
     }
 
