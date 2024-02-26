@@ -5,16 +5,17 @@ using UnityEngine;
 public class Movimiento : MonoBehaviour
 {
     private float movementSpeed = 3.5f;
-    private float jumpForce = 13.0f;
+    private float jumpForce = 15.0f;
     private Rigidbody2D rB2D;
-    private BoxCollider2D boxCollider;
+    private PolygonCollider2D polygonCollider;
     private float Horizontal;
     private bool lookRight = true;
+    public LayerMask layerSuelo;
 
     // Start is called before the first frame update
     void Start(){
         rB2D = GetComponent<Rigidbody2D>();
-        boxCollider = GetComponent<BoxCollider2D>();
+        polygonCollider = GetComponent<PolygonCollider2D>();
     }
 
     // Update is called once per frame
@@ -35,14 +36,16 @@ public class Movimiento : MonoBehaviour
         PlayerMovement();
         PlayerJump();
     }
-    /*bool CharacterInGround()
+    bool CharacterInGround()
     {
-        //Physics2D.BoxCast(boxCollider.bounds.center, new Vector2(boxCollider.bounds.size.x, boxCollider.bounds.size.y), 0f, Vector2.down, 0.2f, ); Minuto 11:13. MAPA AMB TILEMAPS
-    }*/
+        RaycastHit2D raycastHit = Physics2D.BoxCast(polygonCollider.bounds.center, new Vector2(polygonCollider.bounds.size.x, polygonCollider.bounds.size.y), 0f , Vector2.down, 0.2f, layerSuelo); //(Punto de Origen, (Vector) Tamaño de la caja, Ángulo, Dirección, Distancia, Mascara de capas)
+        //Si hay colision raycastHit.collider = Objeto, si no hay colision raycastHit.collider = null
+        return raycastHit.collider != null;
+    }
 
     void PlayerJump()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && CharacterInGround())
         {
             rB2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
