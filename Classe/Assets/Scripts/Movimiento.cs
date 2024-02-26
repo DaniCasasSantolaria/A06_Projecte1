@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class Movimiento : MonoBehaviour
 {
-    public float movementSpeed = 3.5f;
-    public float jumpForce = 100.0f;
+    private float movementSpeed = 3.5f;
+    private float jumpForce = 13.0f;
     private Rigidbody2D rB2D;
     private float Horizontal;
-    private float Vertical;
     private bool lookRight = true;
 
     // Start is called before the first frame update
@@ -32,13 +31,21 @@ public class Movimiento : MonoBehaviour
         //    rB2D.AddForce(new Vector2(rB2D.velocity.x, rB2D.velocity.y * jumpForce));
         //}
         PlayerMovement();
+        PlayerJump();
+    }
+
+    void PlayerJump()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            rB2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+        }
     }
 
     void PlayerMovement()
     {
-        Horizontal = Input.GetAxis("Horizontal");
-        Vertical = Input.GetAxis("Vertical");   //FALTA ACABAR SALTO
-        rB2D.velocity = new Vector2(Horizontal * movementSpeed, Vertical * jumpForce);
+        float Horizontal = Input.GetAxis("Horizontal");
+        rB2D.velocity = new Vector2(Horizontal * movementSpeed, rB2D.velocity.y);
         PlayerOrientation(Horizontal);
     }
 
