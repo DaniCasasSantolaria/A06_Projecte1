@@ -7,12 +7,14 @@ public class Movimiento : MonoBehaviour
     private float movementSpeed = 3.5f;
     private float jumpForce = 13.0f;
     private Rigidbody2D rB2D;
+    private BoxCollider2D boxCollider;
     private float Horizontal;
     private bool lookRight = true;
 
     // Start is called before the first frame update
     void Start(){
         rB2D = GetComponent<Rigidbody2D>();
+        boxCollider = GetComponent<BoxCollider2D>();
     }
 
     // Update is called once per frame
@@ -33,6 +35,10 @@ public class Movimiento : MonoBehaviour
         PlayerMovement();
         PlayerJump();
     }
+    /*bool CharacterInGround()
+    {
+        //Physics2D.BoxCast(boxCollider.bounds.center, new Vector2(boxCollider.bounds.size.x, boxCollider.bounds.size.y), 0f, Vector2.down, 0.2f, ); Minuto 11:13. MAPA AMB TILEMAPS
+    }*/
 
     void PlayerJump()
     {
