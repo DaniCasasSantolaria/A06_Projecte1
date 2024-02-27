@@ -20,19 +20,6 @@ public class Movimiento : MonoBehaviour
 
     // Update is called once per frame
     void Update(){
-        //Horizontal = Input.GetAxis("Horizontal");
-        //Vertical = Input.GetAxis("Vertical");
-        //Debug.Log($"El valor horitzontal es {Horizontal}"); //Per a la consola
-        //rB2D.velocity = new Vector2(Horizontal, rB2D.velocity.y);
-
-        //if (Input.GetKeyDown("Horizontal"))
-        //{
-        //    rB2D.AddForce(new Vector2(Horizontal * movementSpeed, Vertical));
-        //}
-        //if (Input.GetKeyDown(KeyCode.Space))
-        //{
-        //    rB2D.AddForce(new Vector2(rB2D.velocity.x, rB2D.velocity.y * jumpForce));
-        //}
         PlayerMovement();
         PlayerJump();
     }
@@ -47,7 +34,7 @@ public class Movimiento : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && CharacterInGround())
         {
-            rB2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            rB2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse); 
         }
     }
 
