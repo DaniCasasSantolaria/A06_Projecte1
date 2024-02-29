@@ -338,7 +338,7 @@ GameObject:
   - component: {fileID: 1769683207}
   - component: {fileID: 1769683208}
   m_Layer: 0
-  m_Name: Slime_9
+  m_Name: Marlom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
