@@ -24,11 +24,12 @@ public class Jump : MonoBehaviour
     public Transform wallCheck;
     bool isWallTouch;
     bool isSliding;
-    private float wallSlidingSpeed = 1.5f;
+    private float wallSlidingSpeed = 1.6f;
     private float h;
-    public float wallJumpDuration;
-    public Vector2 wallJumpForce;
+    private float wallJumpDuration = 0.1f;
+    private Vector2 wallJumpForce = new Vector2(9, 13);
     bool wallJumping;
+    private static int countWallJumps;
 
     // Start is called before the first frame update
     void Start()
@@ -41,16 +42,21 @@ public class Jump : MonoBehaviour
     void Update()
     {
         h = Input.GetAxisRaw("Horizontal");
+        if (isGrounded())
+        {
+            countWallJumps = 1;
+        }
         if (Input.GetButtonDown("Jump") && isGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpPower);
             isJumping = true;
             jumpCounter = 0;
         }
-        else if (isSliding)
+        else if (Input.GetButtonDown("Jump") && isSliding && countWallJumps != 0)
         {
             wallJumping = true;
             Invoke("StopWallJump", wallJumpDuration);
+            countWallJumps--;
         }
 
         if(rb.velocity.y > 0 && isJumping)
