@@ -11,6 +11,11 @@ public class Movimiento : MonoBehaviour
     private float Horizontal;
     private bool lookRight = true;
     public LayerMask layerSuelo;
+    //[Header ("Wall Jumps System")]
+    //public Transform wallCheck;
+    //bool isWallTouch;
+    //bool isSliding;
+    //public float wallSlidingSpeed;
 
     // Start is called before the first frame update
     void Start(){
@@ -22,6 +27,7 @@ public class Movimiento : MonoBehaviour
     void Update(){
         PlayerMovement();
         PlayerJump();
+        //isWallTouch = Physics2D.OverlapBox(wallCheck.position, new Vector2(0.05f, 0.45f), 0, layerSuelo);
     }
     bool CharacterInGround()
     {
