@@ -15,6 +15,8 @@ public class Jump : MonoBehaviour
 
     public Transform groundCheck;
     public LayerMask groundLayer;
+    //Animator
+    public Animator animator;
     Vector2 vecGravity;
 
     bool isJumping;
@@ -81,6 +83,7 @@ public class Jump : MonoBehaviour
             if(rb.velocity.y > 0)
             {
                 rb.velocity =new Vector2(rb.velocity.x, rb.velocity.y * 0.6f);
+                animator.SetBool("Jump",wallJumping);
             }
         }
 

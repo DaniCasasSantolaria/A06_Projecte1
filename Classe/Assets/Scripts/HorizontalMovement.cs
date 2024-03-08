@@ -8,6 +8,8 @@ public class HorizontalMovement : MonoBehaviour
     private Rigidbody2D rB2D;
     private PolygonCollider2D polygonCollider;
     private float Horizontal;
+    //Animator
+    public Animator animator;
     private bool lookRight = true;
     // Start is called before the first frame update
     void Start()
@@ -25,6 +27,7 @@ public class HorizontalMovement : MonoBehaviour
     {
         float Horizontal = Input.GetAxis("Horizontal");
         rB2D.velocity = new Vector2(Horizontal * movementSpeed, rB2D.velocity.y);
+        animator.SetFloat("Speed", Mathf.Abs(Horizontal));
         PlayerOrientation(Horizontal);
     }
 
