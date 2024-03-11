@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
 public class Jump : MonoBehaviour
 {
     Rigidbody2D rb;
@@ -12,13 +14,14 @@ public class Jump : MonoBehaviour
     private float jumpPower = 12.0f;
     private float fallMultiplier = 1.5f;
     private float jumpMultiplier = 1.9f;
-
+   
+   
     public Transform groundCheck;
     public LayerMask groundLayer;
     //Animator
     public Animator animator;
     Vector2 vecGravity;
-
+    int r;
     bool isJumping;
     float jumpCounter;
 
@@ -36,14 +39,17 @@ public class Jump : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        r = ((double) rand() / (1)) + 1;
         vecGravity = new Vector2(0, -Physics2D.gravity.y);
         rb = GetComponent<Rigidbody2D>();
+        animator.SetBool("Spawn_probability", random(1,2)) ;
     }
 
     // Update is called once per frame
     void Update()
     {
         h = Input.GetAxisRaw("Horizontal");
+         animator.SetBool("Jump", isJumping);
         if (isGrounded())
         {
             countWallJumps = 1;
@@ -63,6 +69,7 @@ public class Jump : MonoBehaviour
 
         if(rb.velocity.y > 0 && isJumping)
         {
+           
             jumpCounter += Time.deltaTime;
             if (jumpCounter > jumpTime) isJumping = false;
 
@@ -78,12 +85,13 @@ public class Jump : MonoBehaviour
         if (Input.GetButtonUp("Jump"))
         {
             isJumping = false;
+            animator.SetBool("Jump", isJumping);
             jumpCounter = 0;
 
             if(rb.velocity.y > 0)
             {
                 rb.velocity =new Vector2(rb.velocity.x, rb.velocity.y * 0.6f);
-                animator.SetBool("Jump",wallJumping);
+                
             }
         }
 
