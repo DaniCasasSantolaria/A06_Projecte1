@@ -27,6 +27,8 @@ public class HorizontalMovement : MonoBehaviour
     {
         float Horizontal = Input.GetAxis("Horizontal");
         rB2D.velocity = new Vector2(Horizontal * movementSpeed, rB2D.velocity.y);
+        Debug.Log(Mathf.Abs(Horizontal));
+        if(Input.GetButton("a"))
         animator.SetFloat("Speed", Mathf.Abs(Horizontal));
         PlayerOrientation(Horizontal);
     }

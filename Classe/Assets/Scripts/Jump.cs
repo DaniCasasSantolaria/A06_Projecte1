@@ -2,8 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-
 public class Jump : MonoBehaviour
 {
     Rigidbody2D rb;
@@ -21,8 +19,8 @@ public class Jump : MonoBehaviour
     //Animator
     public Animator animator;
     Vector2 vecGravity;
-    int r;
     bool isJumping;
+    private float randomNumberSpawn;
     float jumpCounter;
 
     [Header ("Wall Jump System")]
@@ -39,10 +37,14 @@ public class Jump : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        r = ((double) rand() / (1)) + 1;
         vecGravity = new Vector2(0, -Physics2D.gravity.y);
         rb = GetComponent<Rigidbody2D>();
-        animator.SetBool("Spawn_probability", random(1,2)) ;
+        randomNumberSpawn = Random.Range(0f, 10f);
+        Debug.Log($"Attempt {randomNumberSpawn}");
+        if (randomNumberSpawn > 5)
+            animator.SetBool("Spawn_Probability", true);
+        else if(randomNumberSpawn < 5)
+            animator.SetBool("Spawn_Probability", false);
     }
 
     // Update is called once per frame
