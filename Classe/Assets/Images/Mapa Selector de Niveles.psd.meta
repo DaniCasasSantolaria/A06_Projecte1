@@ -1,0 +1,1705 @@
+fileFormatVersion: 2
+guid: 4c4d124c29869a84096c479c73b344f0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 1
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_20
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 542
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158e3687295a59b429953e864de6328d
+      internalID: -503450423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_21
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 542
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47e515da4481d94690a3efa0b8f37b7
+      internalID: -1660702504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_42
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 526
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca91dae43683264da740e2529710255
+      internalID: 651546291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_43
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 526
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a40327fd7a6afb429c54841b56c431b
+      internalID: 1231575418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_64
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 510
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9915dad0fc2413649ace486bbb976414
+      internalID: -1865774444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_65
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 510
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3b7e152b8ec35418daec7b2200c43e
+      internalID: 664782781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_81
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 492
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e2c8904eea6764b8a1ada13ef93a06
+      internalID: -311716014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_82
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 492
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c0e1c9c2476fb48a120b49abcc50d1
+      internalID: -938235779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_97
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 476
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7f9d8301a9926429beb97904efd943
+      internalID: -1590214457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_98
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 474
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d42cc4d42340e749bc8c7d6893d5823
+      internalID: 2085620631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_119
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 460
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad4c865b100a2a409b0a5e95330fdb5
+      internalID: -24978794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_120
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 456
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486148d7c09cfcf40a4eb112fdbec572
+      internalID: -614470841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_141
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 442
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d9a50cfc2549348b188bdb011a7e19
+      internalID: 279690857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_142
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 438
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77116003f4d541488e5f0bbe4294bdf
+      internalID: 1460737231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_163
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 426
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: badee010e841c764cbd4fa39896f9564
+      internalID: 166128325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_164
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 420
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf11ef8d6157edb478d0880cfbbb81a5
+      internalID: 255196078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_185
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 410
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fcb9e5c5566394ca72210726c8298e
+      internalID: -1243048763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_186
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 402
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7057be7456c8d314caac3d93cacc8fb3
+      internalID: 1172013614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_207
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 392
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d067706beda155429dacbfbaef5b7f8
+      internalID: 1903724364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_208
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6842a7e1e00f1e14391ae7e086f7f2a2
+      internalID: 1557410527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_229
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 374
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba0c49d3088c1742b42b66e288055e6
+      internalID: 705191750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_230
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 366
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a25a825955c7c47be02ded19906a10
+      internalID: -750073750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_251
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 356
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099fd7d515bd3ee4dabe9244c98e9150
+      internalID: -1906635716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_252
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 348
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed199a361e38074ab5281c446c91d55
+      internalID: -1342616615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_273
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 338
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7624b28e218a4eb4a9222d6909e08f93
+      internalID: 870704211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_274
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 330
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79928cc527647db4b885f79a417f16d0
+      internalID: -220114910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_295
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1299f1f5434a341bb58dd734f40bf8
+      internalID: 1032271941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_296
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 312
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e7e755432f40046bdfe1029ed3a870
+      internalID: 1133957942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_317
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 302
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21748ac71be87240b733be48065b2d2
+      internalID: 696217883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_318
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 294
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c12d7000880b5a4ea1594bee95b1db0
+      internalID: -1198217309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_337
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 284
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec63b3ba7517cb945a6bc941926f8d66
+      internalID: 398066113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_338
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 276
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e866d8d3787ff664eaef08fabfb807d6
+      internalID: -437464116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_359
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 266
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86aabc10e4252c14887d490e4c51444c
+      internalID: 394438090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_360
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 259
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5751765053ae2045ba1a6d9c3f20ce5
+      internalID: 1888993427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_403
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 249
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89729bde643c67f409301e48fa052ead
+      internalID: 706075473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_425
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 231
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99bd5526585a274a976a97e2913b936
+      internalID: 839462711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_426
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06e957c0b2287b4cab46de043d6be02
+      internalID: 528497547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 374
+        width: 320
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749ad9c2e1d6cea419861e369eb1869d
+      internalID: -1441991287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 188
+        width: 320
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e4874e7aa577b44af2f4a3df1f3c99
+      internalID: -1393330480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa Selector de Niveles_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 320
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20804c358df4f442b0c762efa55db3b
+      internalID: 1268576204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mapa Selector de Niveles_0: -1441991287
+      Mapa Selector de Niveles_1: -1393330480
+      Mapa Selector de Niveles_10: -1974137283
+      Mapa Selector de Niveles_100: 662244903
+      Mapa Selector de Niveles_101: -1621747778
+      Mapa Selector de Niveles_102: -1469327102
+      Mapa Selector de Niveles_103: 722890154
+      Mapa Selector de Niveles_104: 819180711
+      Mapa Selector de Niveles_105: 1986005826
+      Mapa Selector de Niveles_106: 420378787
+      Mapa Selector de Niveles_107: -519126452
+      Mapa Selector de Niveles_108: -121638250
+      Mapa Selector de Niveles_109: -959464704
+      Mapa Selector de Niveles_11: -1661508038
+      Mapa Selector de Niveles_110: 2045092096
+      Mapa Selector de Niveles_111: -369149293
+      Mapa Selector de Niveles_112: 1135499190
+      Mapa Selector de Niveles_113: 974029070
+      Mapa Selector de Niveles_114: 1527700915
+      Mapa Selector de Niveles_115: -1198836440
+      Mapa Selector de Niveles_116: 221080321
+      Mapa Selector de Niveles_117: -1776725596
+      Mapa Selector de Niveles_118: 108128352
+      Mapa Selector de Niveles_119: -24978794
+      Mapa Selector de Niveles_12: 1922899468
+      Mapa Selector de Niveles_120: -614470841
+      Mapa Selector de Niveles_121: -1773575970
+      Mapa Selector de Niveles_122: -1146218375
+      Mapa Selector de Niveles_123: 152862988
+      Mapa Selector de Niveles_124: 344770521
+      Mapa Selector de Niveles_125: -1173125271
+      Mapa Selector de Niveles_126: -1939540986
+      Mapa Selector de Niveles_127: -603505357
+      Mapa Selector de Niveles_128: 1456275965
+      Mapa Selector de Niveles_129: -1978205237
+      Mapa Selector de Niveles_13: 539417892
+      Mapa Selector de Niveles_130: -1636893342
+      Mapa Selector de Niveles_131: -647902214
+      Mapa Selector de Niveles_132: -1044281346
+      Mapa Selector de Niveles_133: -1922108142
+      Mapa Selector de Niveles_134: -1357460379
+      Mapa Selector de Niveles_135: 309378690
+      Mapa Selector de Niveles_136: 101889148
+      Mapa Selector de Niveles_137: -1029003023
+      Mapa Selector de Niveles_138: 1729839879
+      Mapa Selector de Niveles_139: 1409003422
+      Mapa Selector de Niveles_14: 843291124
+      Mapa Selector de Niveles_140: 1415303577
+      Mapa Selector de Niveles_141: 279690857
+      Mapa Selector de Niveles_142: 1460737231
+      Mapa Selector de Niveles_143: -227710010
+      Mapa Selector de Niveles_144: 439511549
+      Mapa Selector de Niveles_145: -1821993319
+      Mapa Selector de Niveles_146: -1648644960
+      Mapa Selector de Niveles_147: -448891110
+      Mapa Selector de Niveles_148: -1121707098
+      Mapa Selector de Niveles_149: 1881448435
+      Mapa Selector de Niveles_15: -1537146060
+      Mapa Selector de Niveles_150: -1114630970
+      Mapa Selector de Niveles_151: 1263648003
+      Mapa Selector de Niveles_152: -1655209398
+      Mapa Selector de Niveles_153: 1049045783
+      Mapa Selector de Niveles_154: -270115955
+      Mapa Selector de Niveles_155: 524269934
+      Mapa Selector de Niveles_156: 161170710
+      Mapa Selector de Niveles_157: -620320349
+      Mapa Selector de Niveles_158: -300643469
+      Mapa Selector de Niveles_159: -2027549193
+      Mapa Selector de Niveles_16: 1661679558
+      Mapa Selector de Niveles_160: -1068538619
+      Mapa Selector de Niveles_161: 80159355
+      Mapa Selector de Niveles_162: 2039620411
+      Mapa Selector de Niveles_163: 166128325
+      Mapa Selector de Niveles_164: 255196078
+      Mapa Selector de Niveles_165: 468352933
+      Mapa Selector de Niveles_166: 1877527916
+      Mapa Selector de Niveles_167: 873520479
+      Mapa Selector de Niveles_168: -838931096
+      Mapa Selector de Niveles_169: 58892772
+      Mapa Selector de Niveles_17: 1112518115
+      Mapa Selector de Niveles_170: -561617429
+      Mapa Selector de Niveles_171: 1125629721
+      Mapa Selector de Niveles_172: -1809973883
+      Mapa Selector de Niveles_173: -323368884
+      Mapa Selector de Niveles_174: 2005764959
+      Mapa Selector de Niveles_175: -1384861167
+      Mapa Selector de Niveles_176: 537933016
+      Mapa Selector de Niveles_177: -957272476
+      Mapa Selector de Niveles_178: -1604626347
+      Mapa Selector de Niveles_179: 40893387
+      Mapa Selector de Niveles_18: 339584581
+      Mapa Selector de Niveles_180: 741893895
+      Mapa Selector de Niveles_181: 853999727
+      Mapa Selector de Niveles_182: -1673471517
+      Mapa Selector de Niveles_183: -461702768
+      Mapa Selector de Niveles_184: -1584348651
+      Mapa Selector de Niveles_185: -1243048763
+      Mapa Selector de Niveles_186: 1172013614
+      Mapa Selector de Niveles_187: 1126749101
+      Mapa Selector de Niveles_188: -1037740184
+      Mapa Selector de Niveles_189: 1390351707
+      Mapa Selector de Niveles_19: 634772421
+      Mapa Selector de Niveles_190: -768675506
+      Mapa Selector de Niveles_191: -2135594358
+      Mapa Selector de Niveles_192: 1952142134
+      Mapa Selector de Niveles_193: 230072002
+      Mapa Selector de Niveles_194: -1513881916
+      Mapa Selector de Niveles_195: 773864794
+      Mapa Selector de Niveles_196: -1158535824
+      Mapa Selector de Niveles_197: 898231007
+      Mapa Selector de Niveles_198: 1534991125
+      Mapa Selector de Niveles_199: 1066693083
+      Mapa Selector de Niveles_2: 1268576204
+      Mapa Selector de Niveles_20: -503450423
+      Mapa Selector de Niveles_200: -928519029
+      Mapa Selector de Niveles_201: 642688413
+      Mapa Selector de Niveles_202: -461653024
+      Mapa Selector de Niveles_203: 1123406091
+      Mapa Selector de Niveles_204: 17580689
+      Mapa Selector de Niveles_205: 1765376831
+      Mapa Selector de Niveles_206: 515591324
+      Mapa Selector de Niveles_207: 1903724364
+      Mapa Selector de Niveles_208: 1557410527
+      Mapa Selector de Niveles_209: -1374449799
+      Mapa Selector de Niveles_21: -1660702504
+      Mapa Selector de Niveles_210: -182755647
+      Mapa Selector de Niveles_211: 410498292
+      Mapa Selector de Niveles_212: 233421457
+      Mapa Selector de Niveles_213: -1489430366
+      Mapa Selector de Niveles_214: -1047562751
+      Mapa Selector de Niveles_215: -1632717941
+      Mapa Selector de Niveles_216: -1918030702
+      Mapa Selector de Niveles_217: -90774763
+      Mapa Selector de Niveles_218: -522875233
+      Mapa Selector de Niveles_219: -1261171707
+      Mapa Selector de Niveles_22: 1081673126
+      Mapa Selector de Niveles_220: -1913281600
+      Mapa Selector de Niveles_221: -2062808381
+      Mapa Selector de Niveles_222: 530487520
+      Mapa Selector de Niveles_223: -1117680975
+      Mapa Selector de Niveles_224: -1792695062
+      Mapa Selector de Niveles_225: -974679772
+      Mapa Selector de Niveles_226: -500449288
+      Mapa Selector de Niveles_227: -1894952090
+      Mapa Selector de Niveles_228: -1791921073
+      Mapa Selector de Niveles_229: 705191750
+      Mapa Selector de Niveles_23: -2012951434
+      Mapa Selector de Niveles_230: -750073750
+      Mapa Selector de Niveles_231: -279424714
+      Mapa Selector de Niveles_232: -1895717432
+      Mapa Selector de Niveles_233: 240701879
+      Mapa Selector de Niveles_234: 582352767
+      Mapa Selector de Niveles_235: -968059371
+      Mapa Selector de Niveles_236: -1487888264
+      Mapa Selector de Niveles_237: 1197656102
+      Mapa Selector de Niveles_238: 181637456
+      Mapa Selector de Niveles_239: -241300542
+      Mapa Selector de Niveles_24: -996357137
+      Mapa Selector de Niveles_240: -79951194
+      Mapa Selector de Niveles_241: 450273500
+      Mapa Selector de Niveles_242: 1854097071
+      Mapa Selector de Niveles_243: 1342687584
+      Mapa Selector de Niveles_244: -337946824
+      Mapa Selector de Niveles_245: -1944631249
+      Mapa Selector de Niveles_246: 1900809820
+      Mapa Selector de Niveles_247: 1488520103
+      Mapa Selector de Niveles_248: -1781143307
+      Mapa Selector de Niveles_249: 612537039
+      Mapa Selector de Niveles_25: 1435768346
+      Mapa Selector de Niveles_250: -1259489422
+      Mapa Selector de Niveles_251: -1906635716
+      Mapa Selector de Niveles_252: -1342616615
+      Mapa Selector de Niveles_253: 472394316
+      Mapa Selector de Niveles_254: 1628341326
+      Mapa Selector de Niveles_255: -742546848
+      Mapa Selector de Niveles_256: 1748820256
+      Mapa Selector de Niveles_257: -597327940
+      Mapa Selector de Niveles_258: -1767274014
+      Mapa Selector de Niveles_259: -413848990
+      Mapa Selector de Niveles_26: 75999506
+      Mapa Selector de Niveles_260: 564120170
+      Mapa Selector de Niveles_261: -1068698821
+      Mapa Selector de Niveles_262: 1529408330
+      Mapa Selector de Niveles_263: -2103924476
+      Mapa Selector de Niveles_264: -1561249621
+      Mapa Selector de Niveles_265: -709363674
+      Mapa Selector de Niveles_266: 717298426
+      Mapa Selector de Niveles_267: 2043802289
+      Mapa Selector de Niveles_268: -1897310956
+      Mapa Selector de Niveles_269: 588977947
+      Mapa Selector de Niveles_27: -907581935
+      Mapa Selector de Niveles_270: 88308763
+      Mapa Selector de Niveles_271: 1330417093
+      Mapa Selector de Niveles_272: -1344094116
+      Mapa Selector de Niveles_273: 870704211
+      Mapa Selector de Niveles_274: -220114910
+      Mapa Selector de Niveles_275: -1443027095
+      Mapa Selector de Niveles_276: -810617223
+      Mapa Selector de Niveles_277: -1526616052
+      Mapa Selector de Niveles_278: 350343050
+      Mapa Selector de Niveles_279: -1324410365
+      Mapa Selector de Niveles_28: -666223594
+      Mapa Selector de Niveles_280: -1187881246
+      Mapa Selector de Niveles_281: -170413290
+      Mapa Selector de Niveles_282: 1184700072
+      Mapa Selector de Niveles_283: 285429783
+      Mapa Selector de Niveles_284: -1805552473
+      Mapa Selector de Niveles_285: -1242614415
+      Mapa Selector de Niveles_286: -1991276805
+      Mapa Selector de Niveles_287: 1839393495
+      Mapa Selector de Niveles_288: -1181855972
+      Mapa Selector de Niveles_289: 1446728401
+      Mapa Selector de Niveles_29: 1025941171
+      Mapa Selector de Niveles_290: 1759559420
+      Mapa Selector de Niveles_291: 747004614
+      Mapa Selector de Niveles_292: 1555223826
+      Mapa Selector de Niveles_293: -1633172760
+      Mapa Selector de Niveles_294: 1714772438
+      Mapa Selector de Niveles_295: 1032271941
+      Mapa Selector de Niveles_296: 1133957942
+      Mapa Selector de Niveles_297: -2136368594
+      Mapa Selector de Niveles_298: 1307836893
+      Mapa Selector de Niveles_299: -240096770
+      Mapa Selector de Niveles_3: -1874747549
+      Mapa Selector de Niveles_30: 504680846
+      Mapa Selector de Niveles_300: 1853936825
+      Mapa Selector de Niveles_301: 1702533547
+      Mapa Selector de Niveles_302: -71874109
+      Mapa Selector de Niveles_303: 1341676604
+      Mapa Selector de Niveles_304: -170370733
+      Mapa Selector de Niveles_305: 733350923
+      Mapa Selector de Niveles_306: 1668334263
+      Mapa Selector de Niveles_307: -1963900660
+      Mapa Selector de Niveles_308: -8998788
+      Mapa Selector de Niveles_309: 1921395185
+      Mapa Selector de Niveles_31: -1672421558
+      Mapa Selector de Niveles_310: -1821814473
+      Mapa Selector de Niveles_311: 1672069220
+      Mapa Selector de Niveles_312: 619781779
+      Mapa Selector de Niveles_313: 1110491765
+      Mapa Selector de Niveles_314: -2085097340
+      Mapa Selector de Niveles_315: -239288434
+      Mapa Selector de Niveles_316: 1287072880
+      Mapa Selector de Niveles_317: 696217883
+      Mapa Selector de Niveles_318: -1198217309
+      Mapa Selector de Niveles_319: -567985609
+      Mapa Selector de Niveles_32: -1025029138
+      Mapa Selector de Niveles_320: -666638292
+      Mapa Selector de Niveles_321: 1031796660
+      Mapa Selector de Niveles_322: -671311240
+      Mapa Selector de Niveles_323: 1219233402
+      Mapa Selector de Niveles_324: -2028032618
+      Mapa Selector de Niveles_325: -1840920778
+      Mapa Selector de Niveles_326: 205717104
+      Mapa Selector de Niveles_327: 275040493
+      Mapa Selector de Niveles_328: -2040051022
+      Mapa Selector de Niveles_329: 88523686
+      Mapa Selector de Niveles_33: 297855571
+      Mapa Selector de Niveles_330: -1063557122
+      Mapa Selector de Niveles_331: 842262700
+      Mapa Selector de Niveles_332: 1517210574
+      Mapa Selector de Niveles_333: -1162028359
+      Mapa Selector de Niveles_334: 355713098
+      Mapa Selector de Niveles_335: -1781098861
+      Mapa Selector de Niveles_336: -2058018452
+      Mapa Selector de Niveles_337: 398066113
+      Mapa Selector de Niveles_338: -437464116
+      Mapa Selector de Niveles_339: -763831244
+      Mapa Selector de Niveles_34: -1163878073
+      Mapa Selector de Niveles_340: -1270429284
+      Mapa Selector de Niveles_341: -788304152
+      Mapa Selector de Niveles_342: 1089986561
+      Mapa Selector de Niveles_343: -107349914
+      Mapa Selector de Niveles_344: 1457281921
+      Mapa Selector de Niveles_345: -796507076
+      Mapa Selector de Niveles_346: -1191725634
+      Mapa Selector de Niveles_347: 941379141
+      Mapa Selector de Niveles_348: 1727850473
+      Mapa Selector de Niveles_349: 1277920407
+      Mapa Selector de Niveles_35: 1663306557
+      Mapa Selector de Niveles_350: 1798905109
+      Mapa Selector de Niveles_351: -1049794468
+      Mapa Selector de Niveles_352: 1692949920
+      Mapa Selector de Niveles_353: 1257737433
+      Mapa Selector de Niveles_354: 265368979
+      Mapa Selector de Niveles_355: 1351357738
+      Mapa Selector de Niveles_356: 290056237
+      Mapa Selector de Niveles_357: -853246753
+      Mapa Selector de Niveles_358: 1327224038
+      Mapa Selector de Niveles_359: 394438090
+      Mapa Selector de Niveles_36: -1923217620
+      Mapa Selector de Niveles_360: 1888993427
+      Mapa Selector de Niveles_361: 688474196
+      Mapa Selector de Niveles_362: 1506097628
+      Mapa Selector de Niveles_363: -1050679781
+      Mapa Selector de Niveles_364: 975298293
+      Mapa Selector de Niveles_365: 494233870
+      Mapa Selector de Niveles_366: -1834511925
+      Mapa Selector de Niveles_367: 1155668310
+      Mapa Selector de Niveles_368: 826568864
+      Mapa Selector de Niveles_369: 848087255
+      Mapa Selector de Niveles_37: -119889269
+      Mapa Selector de Niveles_370: -1025694434
+      Mapa Selector de Niveles_371: -1529639712
+      Mapa Selector de Niveles_372: -1698221165
+      Mapa Selector de Niveles_373: -1287369544
+      Mapa Selector de Niveles_374: 1776576801
+      Mapa Selector de Niveles_375: -1931731597
+      Mapa Selector de Niveles_376: -2140469031
+      Mapa Selector de Niveles_377: -577516768
+      Mapa Selector de Niveles_378: -2125974775
+      Mapa Selector de Niveles_379: 2119181974
+      Mapa Selector de Niveles_38: 1387674225
+      Mapa Selector de Niveles_380: 1922865619
+      Mapa Selector de Niveles_381: -490927418
+      Mapa Selector de Niveles_382: -106514578
+      Mapa Selector de Niveles_383: -1818225775
+      Mapa Selector de Niveles_384: -1692836136
+      Mapa Selector de Niveles_385: -341520632
+      Mapa Selector de Niveles_386: -1388329856
+      Mapa Selector de Niveles_387: -1920852574
+      Mapa Selector de Niveles_388: 990270815
+      Mapa Selector de Niveles_389: -902193306
+      Mapa Selector de Niveles_39: 205963138
+      Mapa Selector de Niveles_390: 1478029289
+      Mapa Selector de Niveles_391: 1264504449
+      Mapa Selector de Niveles_392: -1644096003
+      Mapa Selector de Niveles_393: -152711070
+      Mapa Selector de Niveles_394: 1824162219
+      Mapa Selector de Niveles_395: -744914744
+      Mapa Selector de Niveles_396: -1253142777
+      Mapa Selector de Niveles_397: 1761649642
+      Mapa Selector de Niveles_398: -93528994
+      Mapa Selector de Niveles_399: -79606889
+      Mapa Selector de Niveles_4: 271011047
+      Mapa Selector de Niveles_40: 2054851554
+      Mapa Selector de Niveles_400: 1352757270
+      Mapa Selector de Niveles_401: 1212370704
+      Mapa Selector de Niveles_402: -2096521539
+      Mapa Selector de Niveles_403: 706075473
+      Mapa Selector de Niveles_404: 1097411638
+      Mapa Selector de Niveles_405: -62212126
+      Mapa Selector de Niveles_406: -366763879
+      Mapa Selector de Niveles_407: 1039709043
+      Mapa Selector de Niveles_408: -1113208941
+      Mapa Selector de Niveles_409: -1078538076
+      Mapa Selector de Niveles_41: 901267749
+      Mapa Selector de Niveles_410: -1071191976
+      Mapa Selector de Niveles_411: -1094751536
+      Mapa Selector de Niveles_412: -1883523388
+      Mapa Selector de Niveles_413: 968862561
+      Mapa Selector de Niveles_414: -464993508
+      Mapa Selector de Niveles_415: 1002795881
+      Mapa Selector de Niveles_416: 1210290207
+      Mapa Selector de Niveles_417: -110066682
+      Mapa Selector de Niveles_418: -1748627999
+      Mapa Selector de Niveles_419: 2048228734
+      Mapa Selector de Niveles_42: 651546291
+      Mapa Selector de Niveles_420: -1117210756
+      Mapa Selector de Niveles_421: -1540155171
+      Mapa Selector de Niveles_422: 738418882
+      Mapa Selector de Niveles_423: -1336044765
+      Mapa Selector de Niveles_424: 1509696950
+      Mapa Selector de Niveles_425: 839462711
+      Mapa Selector de Niveles_426: 528497547
+      Mapa Selector de Niveles_427: 1430523416
+      Mapa Selector de Niveles_428: 1115779805
+      Mapa Selector de Niveles_429: -958365055
+      Mapa Selector de Niveles_43: 1231575418
+      Mapa Selector de Niveles_430: -1876524243
+      Mapa Selector de Niveles_431: 1399475583
+      Mapa Selector de Niveles_432: 368300094
+      Mapa Selector de Niveles_433: 932686889
+      Mapa Selector de Niveles_434: 2026883890
+      Mapa Selector de Niveles_435: 1845629170
+      Mapa Selector de Niveles_436: -1671990011
+      Mapa Selector de Niveles_437: 877761636
+      Mapa Selector de Niveles_438: 1659325481
+      Mapa Selector de Niveles_439: 557656709
+      Mapa Selector de Niveles_44: -997272362
+      Mapa Selector de Niveles_440: 1139311856
+      Mapa Selector de Niveles_441: 1875315624
+      Mapa Selector de Niveles_442: 1036648048
+      Mapa Selector de Niveles_443: -1924028954
+      Mapa Selector de Niveles_444: 571486792
+      Mapa Selector de Niveles_445: -1657167351
+      Mapa Selector de Niveles_446: 1182485440
+      Mapa Selector de Niveles_447: 1889911645
+      Mapa Selector de Niveles_448: -485365685
+      Mapa Selector de Niveles_449: 891175956
+      Mapa Selector de Niveles_45: 1785905218
+      Mapa Selector de Niveles_450: -1097749160
+      Mapa Selector de Niveles_451: 1995409078
+      Mapa Selector de Niveles_452: 1879217150
+      Mapa Selector de Niveles_453: -395467714
+      Mapa Selector de Niveles_454: 390154511
+      Mapa Selector de Niveles_455: -1308299171
+      Mapa Selector de Niveles_456: -1456714144
+      Mapa Selector de Niveles_457: -88012505
+      Mapa Selector de Niveles_458: -1666101034
+      Mapa Selector de Niveles_459: 2068082127
+      Mapa Selector de Niveles_46: -103858341
+      Mapa Selector de Niveles_460: 181664721
+      Mapa Selector de Niveles_461: -429789028
+      Mapa Selector de Niveles_462: 1889605685
+      Mapa Selector de Niveles_463: -1880385634
+      Mapa Selector de Niveles_464: -436342046
+      Mapa Selector de Niveles_465: 872146739
+      Mapa Selector de Niveles_466: -327584622
+      Mapa Selector de Niveles_467: -1279821724
+      Mapa Selector de Niveles_468: 1640236921
+      Mapa Selector de Niveles_469: 1620175078
+      Mapa Selector de Niveles_47: 208261678
+      Mapa Selector de Niveles_470: -1285999011
+      Mapa Selector de Niveles_471: -1415729073
+      Mapa Selector de Niveles_472: -2024514865
+      Mapa Selector de Niveles_473: -1858231621
+      Mapa Selector de Niveles_474: -1209234135
+      Mapa Selector de Niveles_475: 1220368806
+      Mapa Selector de Niveles_476: -1343780570
+      Mapa Selector de Niveles_477: -1492660599
+      Mapa Selector de Niveles_478: 1367922011
+      Mapa Selector de Niveles_479: 1833828996
+      Mapa Selector de Niveles_48: -1113227490
+      Mapa Selector de Niveles_480: -1293731231
+      Mapa Selector de Niveles_481: -1402184183
+      Mapa Selector de Niveles_482: -1061149898
+      Mapa Selector de Niveles_483: -1064067636
+      Mapa Selector de Niveles_484: -1298944313
+      Mapa Selector de Niveles_485: 779581138
+      Mapa Selector de Niveles_486: -932824595
+      Mapa Selector de Niveles_487: -732146330
+      Mapa Selector de Niveles_488: -1561617585
+      Mapa Selector de Niveles_489: 1039107163
+      Mapa Selector de Niveles_49: 845429775
+      Mapa Selector de Niveles_490: 1882182232
+      Mapa Selector de Niveles_491: 271117230
+      Mapa Selector de Niveles_492: 1356495786
+      Mapa Selector de Niveles_493: 77253033
+      Mapa Selector de Niveles_494: 1610415582
+      Mapa Selector de Niveles_495: 832309023
+      Mapa Selector de Niveles_496: -581917539
+      Mapa Selector de Niveles_497: -195727981
+      Mapa Selector de Niveles_498: -1912297857
+      Mapa Selector de Niveles_499: -445970261
+      Mapa Selector de Niveles_5: 1075036833
+      Mapa Selector de Niveles_50: 1347582094
+      Mapa Selector de Niveles_500: 1688968720
+      Mapa Selector de Niveles_501: 649527450
+      Mapa Selector de Niveles_502: -680888460
+      Mapa Selector de Niveles_503: -1010838313
+      Mapa Selector de Niveles_504: 331553878
+      Mapa Selector de Niveles_505: 862208943
+      Mapa Selector de Niveles_506: -805105723
+      Mapa Selector de Niveles_507: -1674758713
+      Mapa Selector de Niveles_508: -1750165247
+      Mapa Selector de Niveles_509: -313173975
+      Mapa Selector de Niveles_51: 1718623005
+      Mapa Selector de Niveles_510: 1654285399
+      Mapa Selector de Niveles_511: 1180455657
+      Mapa Selector de Niveles_512: -1229910583
+      Mapa Selector de Niveles_513: 1404842636
+      Mapa Selector de Niveles_514: -1226121015
+      Mapa Selector de Niveles_515: 1413015846
+      Mapa Selector de Niveles_516: 583365701
+      Mapa Selector de Niveles_517: 860428279
+      Mapa Selector de Niveles_518: 1796009199
+      Mapa Selector de Niveles_519: -826952281
+      Mapa Selector de Niveles_52: -1299164542
+      Mapa Selector de Niveles_520: 1455755807
+      Mapa Selector de Niveles_521: -399938862
+      Mapa Selector de Niveles_522: -175909815
+      Mapa Selector de Niveles_523: 1196738280
+      Mapa Selector de Niveles_524: -1442794209
+      Mapa Selector de Niveles_525: 443311440
+      Mapa Selector de Niveles_526: -2019371107
+      Mapa Selector de Niveles_527: -77027677
+      Mapa Selector de Niveles_528: -1914114403
+      Mapa Selector de Niveles_529: -1091463097
+      Mapa Selector de Niveles_53: 836499771
+      Mapa Selector de Niveles_530: 1416897346
+      Mapa Selector de Niveles_531: 1643910281
+      Mapa Selector de Niveles_532: -1876940266
+      Mapa Selector de Niveles_533: -465464870
+      Mapa Selector de Niveles_534: 1451690609
+      Mapa Selector de Niveles_535: -1422767135
+      Mapa Selector de Niveles_536: 82245392
+      Mapa Selector de Niveles_537: -32031527
+      Mapa Selector de Niveles_538: -1498084337
+      Mapa Selector de Niveles_539: -1643735551
+      Mapa Selector de Niveles_54: 1451250039
+      Mapa Selector de Niveles_540: -853407359
+      Mapa Selector de Niveles_541: -758901574
+      Mapa Selector de Niveles_542: 568965645
+      Mapa Selector de Niveles_543: 215489840
+      Mapa Selector de Niveles_544: 314557781
+      Mapa Selector de Niveles_545: -892321776
+      Mapa Selector de Niveles_546: -549209164
+      Mapa Selector de Niveles_547: 252216718
+      Mapa Selector de Niveles_548: -1590994790
+      Mapa Selector de Niveles_549: 503354751
+      Mapa Selector de Niveles_55: 1709660142
+      Mapa Selector de Niveles_550: -556712712
+      Mapa Selector de Niveles_551: -1600773717
+      Mapa Selector de Niveles_552: -1027029319
+      Mapa Selector de Niveles_553: 1300572212
+      Mapa Selector de Niveles_554: -150880279
+      Mapa Selector de Niveles_555: 1666533710
+      Mapa Selector de Niveles_556: 1484448116
+      Mapa Selector de Niveles_557: 1276414844
+      Mapa Selector de Niveles_558: -763269495
+      Mapa Selector de Niveles_559: 471066997
+      Mapa Selector de Niveles_56: -441678834
+      Mapa Selector de Niveles_560: -2142518806
+      Mapa Selector de Niveles_561: 1577873122
+      Mapa Selector de Niveles_562: -20886849
+      Mapa Selector de Niveles_563: -1643839287
+      Mapa Selector de Niveles_564: 720645936
+      Mapa Selector de Niveles_565: -1079071007
+      Mapa Selector de Niveles_566: 851575398
+      Mapa Selector de Niveles_567: 1113840048
+      Mapa Selector de Niveles_568: 1355678577
+      Mapa Selector de Niveles_569: 1854665475
+      Mapa Selector de Niveles_57: 116107223
+      Mapa Selector de Niveles_570: -1853828623
+      Mapa Selector de Niveles_571: -1809737702
+      Mapa Selector de Niveles_572: 502420978
+      Mapa Selector de Niveles_573: -432704205
+      Mapa Selector de Niveles_574: 1497867244
+      Mapa Selector de Niveles_575: -1354074593
+      Mapa Selector de Niveles_576: -189269513
+      Mapa Selector de Niveles_577: -1109607404
+      Mapa Selector de Niveles_578: -42789178
+      Mapa Selector de Niveles_579: -1946125891
+      Mapa Selector de Niveles_58: 1804968322
+      Mapa Selector de Niveles_580: 625996675
+      Mapa Selector de Niveles_581: -358215536
+      Mapa Selector de Niveles_582: -1992203690
+      Mapa Selector de Niveles_583: 2076531346
+      Mapa Selector de Niveles_584: -663979196
+      Mapa Selector de Niveles_585: 2101383651
+      Mapa Selector de Niveles_586: 500241728
+      Mapa Selector de Niveles_587: -1786730182
+      Mapa Selector de Niveles_588: -2063874048
+      Mapa Selector de Niveles_589: 1784528015
+      Mapa Selector de Niveles_59: -2115331345
+      Mapa Selector de Niveles_590: 1865712559
+      Mapa Selector de Niveles_591: 1249722261
+      Mapa Selector de Niveles_592: 1956297013
+      Mapa Selector de Niveles_593: -354502451
+      Mapa Selector de Niveles_594: 1433249455
+      Mapa Selector de Niveles_595: -1487753794
+      Mapa Selector de Niveles_596: -1030884871
+      Mapa Selector de Niveles_597: -74189493
+      Mapa Selector de Niveles_598: 208096182
+      Mapa Selector de Niveles_599: 629534896
+      Mapa Selector de Niveles_6: -1072730952
+      Mapa Selector de Niveles_60: -1381550932
+      Mapa Selector de Niveles_600: -1840444515
+      Mapa Selector de Niveles_601: -431314683
+      Mapa Selector de Niveles_602: -1126544676
+      Mapa Selector de Niveles_603: 1475111276
+      Mapa Selector de Niveles_604: 1826549083
+      Mapa Selector de Niveles_605: -1072506705
+      Mapa Selector de Niveles_606: 1092985536
+      Mapa Selector de Niveles_607: -1992175343
+      Mapa Selector de Niveles_608: 2083272374
+      Mapa Selector de Niveles_609: 1193320458
+      Mapa Selector de Niveles_61: 2023361169
+      Mapa Selector de Niveles_610: 1249632997
+      Mapa Selector de Niveles_611: 603526984
+      Mapa Selector de Niveles_612: -1789399559
+      Mapa Selector de Niveles_613: 1122132752
+      Mapa Selector de Niveles_614: -1657604453
+      Mapa Selector de Niveles_615: -686995983
+      Mapa Selector de Niveles_616: 1947082907
+      Mapa Selector de Niveles_617: 28497025
+      Mapa Selector de Niveles_618: -102570127
+      Mapa Selector de Niveles_619: 2035517333
+      Mapa Selector de Niveles_62: 865455543
+      Mapa Selector de Niveles_620: -1252992582
+      Mapa Selector de Niveles_621: -1491202709
+      Mapa Selector de Niveles_622: 1682493940
+      Mapa Selector de Niveles_623: 1402328343
+      Mapa Selector de Niveles_624: 338148015
+      Mapa Selector de Niveles_625: 853958949
+      Mapa Selector de Niveles_626: -523452734
+      Mapa Selector de Niveles_627: -2010996432
+      Mapa Selector de Niveles_628: 622494645
+      Mapa Selector de Niveles_629: -694678819
+      Mapa Selector de Niveles_63: -1307798655
+      Mapa Selector de Niveles_630: 2130981378
+      Mapa Selector de Niveles_631: 233014340
+      Mapa Selector de Niveles_632: -222150997
+      Mapa Selector de Niveles_633: 600436086
+      Mapa Selector de Niveles_634: 709095368
+      Mapa Selector de Niveles_635: 1770477126
+      Mapa Selector de Niveles_636: -696513977
+      Mapa Selector de Niveles_637: 1676293631
+      Mapa Selector de Niveles_638: -1111493412
+      Mapa Selector de Niveles_639: -1608199513
+      Mapa Selector de Niveles_64: -1865774444
+      Mapa Selector de Niveles_640: 1712533160
+      Mapa Selector de Niveles_641: 417705927
+      Mapa Selector de Niveles_642: -1663563666
+      Mapa Selector de Niveles_643: 2130645609
+      Mapa Selector de Niveles_644: 1827149872
+      Mapa Selector de Niveles_645: -1552409851
+      Mapa Selector de Niveles_646: 1515439925
+      Mapa Selector de Niveles_647: -631461750
+      Mapa Selector de Niveles_648: -1419558288
+      Mapa Selector de Niveles_649: -2138357822
+      Mapa Selector de Niveles_65: 664782781
+      Mapa Selector de Niveles_650: -2102782995
+      Mapa Selector de Niveles_651: -694348509
+      Mapa Selector de Niveles_652: 1724636417
+      Mapa Selector de Niveles_653: 155175688
+      Mapa Selector de Niveles_654: -385076137
+      Mapa Selector de Niveles_655: -750312064
+      Mapa Selector de Niveles_656: -2035927469
+      Mapa Selector de Niveles_657: -466783495
+      Mapa Selector de Niveles_658: -1024342644
+      Mapa Selector de Niveles_659: -182400487
+      Mapa Selector de Niveles_66: 1385945837
+      Mapa Selector de Niveles_660: 1051948024
+      Mapa Selector de Niveles_661: -1726396947
+      Mapa Selector de Niveles_662: 1717335569
+      Mapa Selector de Niveles_663: 564953475
+      Mapa Selector de Niveles_664: -1708048995
+      Mapa Selector de Niveles_665: -525344727
+      Mapa Selector de Niveles_666: -816274017
+      Mapa Selector de Niveles_667: -110839737
+      Mapa Selector de Niveles_668: 888342987
+      Mapa Selector de Niveles_669: 1682302283
+      Mapa Selector de Niveles_67: 1902965775
+      Mapa Selector de Niveles_670: 1557969096
+      Mapa Selector de Niveles_671: -1084217932
+      Mapa Selector de Niveles_672: 88244869
+      Mapa Selector de Niveles_673: 1562906265
+      Mapa Selector de Niveles_674: 10786678
+      Mapa Selector de Niveles_675: 1958965408
+      Mapa Selector de Niveles_676: -294289417
+      Mapa Selector de Niveles_677: -99499196
+      Mapa Selector de Niveles_678: -617722378
+      Mapa Selector de Niveles_679: 939000278
+      Mapa Selector de Niveles_68: -2101773050
+      Mapa Selector de Niveles_680: -544678795
+      Mapa Selector de Niveles_681: -2120052229
+      Mapa Selector de Niveles_682: -1953386551
+      Mapa Selector de Niveles_683: -96305879
+      Mapa Selector de Niveles_684: -862022442
+      Mapa Selector de Niveles_685: 636729806
+      Mapa Selector de Niveles_686: -58579037
+      Mapa Selector de Niveles_687: 430534468
+      Mapa Selector de Niveles_688: -1569408784
+      Mapa Selector de Niveles_689: 1753263303
+      Mapa Selector de Niveles_69: 1147244183
+      Mapa Selector de Niveles_690: 1870213358
+      Mapa Selector de Niveles_691: -1980573806
+      Mapa Selector de Niveles_692: 1414069803
+      Mapa Selector de Niveles_693: 1646083741
+      Mapa Selector de Niveles_694: -1403284658
+      Mapa Selector de Niveles_695: -1529813766
+      Mapa Selector de Niveles_696: -131271398
+      Mapa Selector de Niveles_697: -1329982437
+      Mapa Selector de Niveles_698: 1184973266
+      Mapa Selector de Niveles_699: 1843958778
+      Mapa Selector de Niveles_7: -1649235322
+      Mapa Selector de Niveles_70: 794875182
+      Mapa Selector de Niveles_700: 632169835
+      Mapa Selector de Niveles_701: 1224063527
+      Mapa Selector de Niveles_702: -1513905574
+      Mapa Selector de Niveles_703: -103809084
+      Mapa Selector de Niveles_704: -1079933610
+      Mapa Selector de Niveles_705: -1332327004
+      Mapa Selector de Niveles_706: 1945092106
+      Mapa Selector de Niveles_707: 1239049916
+      Mapa Selector de Niveles_708: 1170390752
+      Mapa Selector de Niveles_709: 2068159814
+      Mapa Selector de Niveles_71: 1211458233
+      Mapa Selector de Niveles_710: -1136743471
+      Mapa Selector de Niveles_711: -48252405
+      Mapa Selector de Niveles_72: 919842005
+      Mapa Selector de Niveles_73: -1760755285
+      Mapa Selector de Niveles_74: -252722838
+      Mapa Selector de Niveles_75: -1376712041
+      Mapa Selector de Niveles_76: 733855735
+      Mapa Selector de Niveles_77: 1248870402
+      Mapa Selector de Niveles_78: 243343332
+      Mapa Selector de Niveles_79: 1114635882
+      Mapa Selector de Niveles_8: 1360250549
+      Mapa Selector de Niveles_80: -1271589192
+      Mapa Selector de Niveles_81: -311716014
+      Mapa Selector de Niveles_82: -938235779
+      Mapa Selector de Niveles_83: 210400134
+      Mapa Selector de Niveles_84: -1326263964
+      Mapa Selector de Niveles_85: -1579137306
+      Mapa Selector de Niveles_86: 1565275985
+      Mapa Selector de Niveles_87: -918180105
+      Mapa Selector de Niveles_88: 326265231
+      Mapa Selector de Niveles_89: -115421837
+      Mapa Selector de Niveles_9: -370174222
+      Mapa Selector de Niveles_90: -151401542
+      Mapa Selector de Niveles_91: 1864970801
+      Mapa Selector de Niveles_92: -1937512172
+      Mapa Selector de Niveles_93: -1420750306
+      Mapa Selector de Niveles_94: 709298662
+      Mapa Selector de Niveles_95: 1025499621
+      Mapa Selector de Niveles_96: 1556141509
+      Mapa Selector de Niveles_97: -1590214457
+      Mapa Selector de Niveles_98: 2085620631
+      Mapa Selector de Niveles_99: -754369834
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
