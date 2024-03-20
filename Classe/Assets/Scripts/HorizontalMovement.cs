@@ -28,12 +28,19 @@ public class HorizontalMovement : MonoBehaviour
         float Horizontal = Input.GetAxis("Horizontal");
         rB2D.velocity = new Vector2(Horizontal * movementSpeed, rB2D.velocity.y);
         Debug.Log(Mathf.Abs(Horizontal));
-      
-        if(Input.GetButtonDown(KeyCode.a))
+
+        if (Input.GetButtonDown(KeyCode.A.ToString())) {
             animator.SetBool("keyboardMovementPressed", true);
-        else if(Input.GetButtonDown("right") == true)
+            Debug.Log("keyboard true");
+        }
+        else if (Input.GetButtonDown(KeyCode.D.ToString()) == true) { 
             animator.SetBool("keyboardMovementPressed", true);
+            Debug.Log("keyboard true");
+        }
         else
+        {
+
+        }
             animator.SetBool("keyboardMovementPressed", false);
         animator.SetFloat("Speed", Mathf.Abs(Horizontal));
         PlayerOrientation(Horizontal);
